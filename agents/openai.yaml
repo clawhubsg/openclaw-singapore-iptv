@@ -1,0 +1,4 @@
+interface:
+  display_name: "Singapore IPTV Launcher"
+  short_description: "Fetch Singapore IPTV and launch links"
+  default_prompt: "Use $openclaw-singapore-iptv to list Singapore IPTV channels from iptv-org and generate VLC or browser launch links for mobile or desktop."
