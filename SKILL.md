@@ -15,13 +15,11 @@ Use the bundled helper to fetch live Singapore playlist data from `iptv-org/iptv
 - Default to `--source countries` for a deduplicated user-facing playlist from `https://iptv-org.github.io/iptv/countries/sg.m3u`.
 - Use `--source streams` for the raw upstream SG stream file from `https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u`.
 
-2. Run the helper:
+2. Run the helper from inside this skill directory:
 
 ```bash
 python3 scripts/fetch_singapore_iptv.py --source countries
 ```
-
-Run that command from the project root.
 
 3. Add filters only when needed:
 - `--strict-sg` removes cross-border entries that can appear in the published Singapore playlist.
