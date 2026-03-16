@@ -18,8 +18,10 @@ Use the bundled helper to fetch live Singapore playlist data from `iptv-org/iptv
 2. Run the helper:
 
 ```bash
-python3 /home/dreamtcs/openclaw-skills/openclaw-singapore-iptv/scripts/fetch_singapore_iptv.py --source countries
+python3 scripts/fetch_singapore_iptv.py --source countries
 ```
+
+Run that command from the project root.
 
 3. Add filters only when needed:
 - `--strict-sg` removes cross-border entries that can appear in the published Singapore playlist.
