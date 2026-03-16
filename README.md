@@ -1,13 +1,8 @@
----
-name: openclaw-singapore-iptv
-description: Fetch Singapore IPTV playlists from iptv-org, filter Singapore and Singapore-related channels, and generate browser or VLC launcher links for mobile or desktop. Use when the user wants Singapore TV streams, a Singapore IPTV playlist, SG-only filtering from iptv-org, or launch URLs for VLC on Android, iPhone, iPad, desktop, or a web browser.
----
-
 # Openclaw Singapore IPTV
 
 ## Overview
 
-Use the bundled helper to fetch live Singapore playlist data from `iptv-org/iptv`, then return a compact channel list or launcher links. Prefer the published country playlist for end-user output and the raw SG streams file only when the user explicitly wants every upstream SG-tagged stream candidate.
+Use the bundled helper to fetch live Singapore playlist data from `iptv-org/iptv`, then return a compact channel list or launcher links. Prefer the published country playlist for end-user output and the raw SG streams file only when you want every upstream SG-tagged stream candidate.
 
 ## Workflow
 
@@ -18,7 +13,7 @@ Use the bundled helper to fetch live Singapore playlist data from `iptv-org/iptv
 2. Run the helper:
 
 ```bash
-python3 /home/dreamtcs/.codex/skills/openclaw-singapore-iptv/scripts/fetch_singapore_iptv.py --source countries
+python3 /home/dreamtcs/openclaw-skills/openclaw-singapore-iptv/scripts/fetch_singapore_iptv.py --source countries
 ```
 
 3. Add filters only when needed:
